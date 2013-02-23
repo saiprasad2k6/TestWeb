@@ -1,0 +1,79 @@
+body, h2, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #444;
+	color: #333;
+	font-family: Helvetica, sans-serif;
+	display:none;
+}
+
+#book {
+	/*background: url("book.png") no-repeat;*/
+	position: absolute;
+	width: 830px;
+	height: 1110px;
+	left: 50%;
+	top: 5%;
+	margin-left: -400px;
+	/*margin-top: -202px;*/
+	background-color:#fff;
+}
+
+#pages section {
+	/*background: url("paper.png") no-repeat;*/
+	display: block;
+	width: 400px;
+	height: 1100px;
+	position: absolute;
+	left: 415px;
+	top: 5px;
+	overflow: hidden;
+	background-color:#000;
+}
+	#pages section>div {
+		display: block;
+		width: 400px;
+		height: 1100px;
+		font-size: 12px;
+	}
+	#pages section p,
+	#pages section h2 {
+		color:#fff;
+		padding: 3px 35px;
+		line-height: 1.4em;
+		text-align: justify;
+	}
+	#pages section h2{
+		margin: 15px 0 10px;
+	}
+
+#pageflip-canvas {
+	position: absolute;
+	z-index: 100;
+}
+
+
+/* Ram content */
+
+#nameimage img {width:100px; height:100px; float:left; margin-top:0px; border:1px #ccc solid; margin-left:120px; margin-bottom:20px}
+.horiz {width:300px; height:2px; background-color:#fff; margin:0px auto; margin-top:10px}
+.profile {margin:0px 35px}
+.row {padding:10px; color:#f1f0f0; width:350px; float:left}
+.flt-lft {float:left}
+.form .register { width:100%}
+.profile .register label {color:#f1f0f0;  font-weight:bold; font-size:13px; width:100px; display:block; float:left; padding:3px; font-family:Arial, Helvetica, sans-serif}
+.profile .register input[type="text"], .form input[type="password"] {color:#f1f0f0; font-size:13px; width:100px; dispaly:block; float:left; padding:3px; font-family:Arial, Helvetica, sans-serif}
+.profile .register select {color:#f1f0f0; font-size:13px; width:100px; display:block; float:left; padding:3px; font-family:Arial, Helvetica, sans-serif}
+.profile .register .row {padding:10px; color:#f1f0f0}
+.profile .register .row-submit {margin-left:215px; margin-top:20px}
+.profile .register .row-submit input {width:100px}
+.respons {margin-left:0px; width:315px; margin-top:10px; margin-bottom:10px}
+.clear {clear:both}
+.mrgn-lft25 {margin-left:25px}
+.respons label {width:200px!important }
+.respons-align {margin-bottom:20px}
+.mycomments h3, .mycomments div {color:#fff}
+.mycomments {width:300px; margin-top:10px; margin-bottom:10px}

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* THIS IS THE ACTUAL DISPLAY AREA OF THE SLIDERS */
+#slide-container
+{
+    width: 550px;
+    overflow: hidden;
+}
+
+/* SET TO THE TOTAL WIDTH OF ALL DIVS */
+#slider-wrapper
+{
+    width: 2300px;
+}
+
+
+/* THESE ARE THE INDIVIDUAL SLIDE PROPERTIES */
+.slide
+{
+    width: 550px;
+    height: 200px;
+    overflow: hidden;
+    float: left;
+	background-color:rgb(60, 60, 60);
+	border:rgb(60, 60, 60) 4px solid
+}
+.slide p {padding-top:20px}
+
+.slide h2, .slide p { color:#fff}

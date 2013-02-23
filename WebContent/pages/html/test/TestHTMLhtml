@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TEST</title>
+<script type="text/javascript" src="../../../theme/js/lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../../../theme/js/test/TestJS.js"></script>
+<script type="text/javascript">
+	Cantilever.greetUser('Sahanaa');
+</script>
+</head>
+<body>
+ <iframe src="http://www.facebook.com/plugins/like.php?href=google.com"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
+</body>
+</html>
